@@ -1,0 +1,50 @@
+* {
+    border:blueviolet 1px dotted;
+    margin-top: 2;
+    padding: 05;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(2, 159, 78);
+    padding: 0px 10px;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;/*">Este es un texto en negrita*/
+      
+}
+
+.header_link_container{
+    width: 60%;
+}
+
+.header__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger; /*Para dar tamaño a la letra*/
+    }
+
+.header__image img {
+    width: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 225, 213);
+}
+
+.paisaje_carretera img {
+    width: 500px;
+}
+
+.Equipo_Arin img {
+    width: 500px;
+}
