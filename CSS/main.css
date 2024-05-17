@@ -1,7 +1,7 @@
 * {
-    border:blueviolet 1px dotted;
-    margin-top: 2;
-    padding: 05;
+    /*border:blueviolet 1px dotted;*/
+    margin-top: 1;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -9,11 +9,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:rgb(2, 159, 78);
-    padding: 0px 10px;
+    background-color:#8a9f02;
+    padding: 0px 50px;
     align-items: center;
     box-sizing: border-box;
     font-weight: bold;/*">Este es un texto en negrita*/
+    top: 0;
+    position: sticky;/*Para dejar una caja estatica*/
       
 }
 
@@ -41,10 +43,96 @@ a {
     color: rgb(211, 225, 213);
 }
 
-.paisaje_carretera img {
-    width: 500px;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50%;
 }
 
-.Equipo_Arin img {
-    width: 500px;
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    background-color: antiquewhite;
+    
+    
 }
+    
+
+.card__img img {
+    width: 400px;
+    display: flex;
+    order: 0;
+    margin: 50px;
+    
+}
+
+.parrafo1{
+    order: 1;
+}
+
+.card__info {
+   /* padding: 0 7;*/
+   justify-content: center;
+   order: 1;
+   margin: 50px;
+}
+
+.position--right {
+    order: 2;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #af8042;
+    margin: 10;
+}
+
+form {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 24px;
+    padding: 21px;
+    flex-direction: column;
+         
+}
+
+
+
+button {
+    border: none;
+    background: #0a7e36;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family:"Poppins",sans-serif ;
+       
+}
+
+button:hover{
+    background: burlywood;
+    color:#0a7e36;
+    
+}
+
+input:focus{
+    border: #8a9f02;
+
+}
+
+
+
+
