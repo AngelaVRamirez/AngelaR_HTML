@@ -62,7 +62,7 @@ section {
     
 
 .card__img img {
-    width: 400px;
+    width: 350px;
     display: flex;
     order: 0;
     margin: 50px;
@@ -89,22 +89,32 @@ h2 {
     font-weight: bold;
 }
 
+h4 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #0a7e36; 
+    padding: 15px; 
+}
+
 
 .formulario {
     display: flex;
+    background-color: #8a9f02;
+    margin: 20px;
+    width: 387px;
     justify-content: center;
-    gap: 100px;
-    background-color: #af8042;
-    margin: 10;
+    margin-left: 510px;
+    
+
 }
 
 form {
-    width: 370px;
+
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 24px;
-    padding: 21px;
+    gap: 15px;
+    margin: 14px;
+    padding: 25px;
     flex-direction: column;
          
 }
@@ -123,16 +133,57 @@ button {
 }
 
 button:hover{
-    background: burlywood;
-    color:#0a7e36;
+    background: rgb(22, 51, 156);
+    color:#e6eee9;
     
 }
 
 input:focus{
-    border: #8a9f02;
+    border: #a81616;
 
 }
 
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #0a7e36; 
+    padding: 15px; 
+}
+
+.pie_pagina{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 128px;
+    padding: 15px;
+    margin: 2px;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1092px;
+    position: absolute;
+    align-items: flex-start;
+    padding: 19px;
+}
+
+.img5{
+        width: 350px;
+        display: flex;
+        margin: 50px;
+}
+
+.redes{
+    padding: 0px;
+    display: flex;
+     margin: 5px;
+    flex-direction: column;
+    position: absolute;
+}
 
 
 
